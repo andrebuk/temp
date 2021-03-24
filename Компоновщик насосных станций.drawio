@@ -1,5 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T05:46:05.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rQCzQi-m62KvooNRaQ91" version="14.5.0" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-03-24T05:48:27.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="POaS0pSwYek96zw9C_7_" version="14.5.0" type="github" pages="3">
+  <diagram id="vI_er32FzLTA2VBYqchx" name="Общая архитектура решения">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="F3IjpVvEMc2qxhP0550E-0" />
+        <mxCell id="F3IjpVvEMc2qxhP0550E-1" parent="F3IjpVvEMc2qxhP0550E-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Приложение конфигуратора (standalone)">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -110,6 +118,9 @@
         <mxCell id="56DpWFyaeTY6TzINIU70-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="56DpWFyaeTY6TzINIU70-30" target="56DpWFyaeTY6TzINIU70-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="56DpWFyaeTY6TzINIU70-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="56DpWFyaeTY6TzINIU70-30" target="56DpWFyaeTY6TzINIU70-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="56DpWFyaeTY6TzINIU70-30" value="Прочее" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
         </mxCell>
@@ -131,6 +142,23 @@
         <mxCell id="56DpWFyaeTY6TzINIU70-40" value="Стрела для подъема всасывающей стрелы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="540" y="920" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="56DpWFyaeTY6TzINIU70-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="56DpWFyaeTY6TzINIU70-42" target="56DpWFyaeTY6TzINIU70-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="56DpWFyaeTY6TzINIU70-42" value="Компоновка оборудования" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="56DpWFyaeTY6TzINIU70-44" value="Подбор размеров контейнера" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U7V_ksJmndCovjFiWHij" name="Отрисовка в Revit">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="_zmqA3p9ErLAyi2trxuh-0" />
+        <mxCell id="_zmqA3p9ErLAyi2trxuh-1" parent="_zmqA3p9ErLAyi2trxuh-0" />
       </root>
     </mxGraphModel>
   </diagram>
